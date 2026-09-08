@@ -4,7 +4,7 @@ module ccskp = struct
 
 % In this encoding, restriction of names in processes is considered as a binding
 % operation and processes are identified up to α-renaming of bound names. However,
-% the LTS rules for restrictions (res, \underline{res} in Fig.5) are not closed
+% the LTS rules for restrictions (res, \underline{res} in Fig.10) are not closed
 % under α-equivalence. In fact, the name "a" bound by the restrictions may occur
 % free in the used proof label θ.
 % In this encoding, we consider such occurrence of "a" in θ as bound and we identify
@@ -237,7 +237,7 @@ LF conn_tr: step X θ1 X' → step Y θ2 Y' → type =
 %%% Connectedness, dependence and independence of proof labels %%%
 
 % Connectedness, dependence and independence of closed proof labels are defined
-% according to the rules in Fig. 10 and 11.
+% according to the rules in Fig. 14 and 15.
 
 % Connectedness of closed proof labels
 LF conn_cl: pr_lab_cl → pr_lab_cl → type =
