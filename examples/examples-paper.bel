@@ -22,7 +22,7 @@ let f_4_11:[k:keys ⊢ fstep_op (nu \a.(par (pref (inp a) null) (pref (out a) nu
 
 % In the following, we assume given names a,b and keys k,m,n, with m != k and n != k
 
-% Transitions in Fig.6:
+% Transitions in Fig. 11:
 
 % a | ('a + b)  -[ <|_L a[m],|_R +_L 'a[m]> ]->  a[m] | ('a[m] + b)
 let f_4_16a:[a:names,b:names,k:keys,m:keys,n:keys,I1:neq m k,I2:neq n k ⊢
@@ -80,7 +80,7 @@ let b_4_16g:[a:names,b:names,k:keys,m:keys,n:keys,I1:neq k m,I2:neq n k ⊢
           = [a:names,b:names,k:keys,m:keys,n:keys,I1:neq k m,I2:neq n k ⊢
              bc_parl (bc_pref std_null) key_base (not_sum (not_kpref I1 not_null) (not_pref not_null))];
 
-% We show that two of the processes in Fig. 6 are reachable from a[k] | ('a + b):
+% We show that two of the processes in Fig. 11 are reachable from a[k] | ('a + b):
 % there is a path from a[k] | ('a + b) to the two processes
 
 % a[k] | ('a + b[m]) is reachable from a[k] | ('a + b)

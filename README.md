@@ -573,7 +573,7 @@ code/ccskp/lemmas-connectedness-two.bel|12|21|141
 code/bijection/bijection.bel|23|19|114
 code/ccskp/basic-properties.bel|15|16|112
 code/bijection/functionality.bel|16|27|100
-code/ccskp/axioms/events.bel|16|32|93
+code/ccskp/axioms/events.bel|14|19|93
 code/ccskp/unique.bel|10|15|92
 code/ccskp/axioms/wf.bel|10|17|79
 code/shared/unique.bel|9|10|69
@@ -586,7 +586,7 @@ code/ccsk/basic-properties.bel|5|5|45
 code/bijection/definitions.bel|11|12|44
 code/shared/basic-properties.bel|7|10|44
 code/ccsk/complementarity.bel|8|15|43
-code/ccsk/axioms/events.bel|5|19|25
+code/ccsk/axioms/events.bel|3|5|25
 code/ccsk/axioms/sp.bel|2|5|23
 code/ccsk/axioms/pci.bel|1|14|19
 code/ccsk/axioms/ed.bel|1|3|17
@@ -600,7 +600,7 @@ code/ccskp/axioms/cire.bel|1|4|6
 code/ccskp/axioms/rpi.bel|1|3|6
 code/ccskp/axioms/ed.bel|1|3|5
 --------|--------|--------|--------
-**SUM** |**599**|**912**|**9296**
+SUM:|595|885|9296
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
