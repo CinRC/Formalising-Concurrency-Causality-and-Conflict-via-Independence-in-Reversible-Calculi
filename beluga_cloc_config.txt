@@ -1,4 +1,4 @@
-beluga
+Beluga
     filter remove_between_general %{ %}
     filter remove_matches ^\s*%
     extension bel
